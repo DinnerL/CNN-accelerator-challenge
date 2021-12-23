@@ -1,5 +1,7 @@
 # FPGA hardware emulation using Layer-specific architecture and tiled pooling
-git clone 
+```
+git clone
+```
 # Introduction
 
 # Build Setup
