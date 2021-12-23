@@ -39,7 +39,7 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 
 # Results
 ## without zeropadding
-"1. Layer 1"
+**1. Layer 1**
 2. Layer 2
 3. Layer 3
 4. Layer 4
