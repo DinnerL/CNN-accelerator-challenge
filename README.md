@@ -66,6 +66,7 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 + Layer 4
 
 + Layer 5   
-![(with zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147213624-a6de096b-b2c3-475e-8083-afccaad8d407.png)
+![(with zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147214330-090e878e-4795-4e08-a87c-7db54f2cca5b.png)   
+
 
 
