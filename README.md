@@ -43,19 +43,18 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 # Results
 **without zeropadding**   
 + Layer 1      
+![(without zeropadding) layer1 hw_emu](https://user-images.githubusercontent.com/75317393/147214144-d34c132c-5431-4d45-8668-5538711305d5.png)   
 
 + Layer 2
 
 + Layer 3   
-![(without zeropadding) layer3 hw_emu](https://user-images.githubusercontent.com/75317393/147213590-9568f8ae-7681-40f3-a469-8d0248ad7043.png)   
+![(without zeropadding) layer3 hw_emu](https://user-images.githubusercontent.com/75317393/147214157-e8a13cdf-02ec-4865-8189-9c09ba4d8be9.png)   
 
 + Layer 4   
-![(without zeropadding) layer4 sw_emu](https://user-images.githubusercontent.com/75317393/147213559-fad5a619-1acb-4c76-a5c8-a93ad7a6003c.png)   
-
+ ![(without zeropadding) layer4 hw_emu](https://user-images.githubusercontent.com/75317393/147214182-d6d7b342-5ca5-4533-8bb8-cf85c4eb155f.png)   
 
 + Layer 5    
-![(without zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147213544-d97d0a3d-c213-4850-9c49-ca37d313c931.png)   
-
+![(without zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147214089-2ac8a026-df14-4b90-a9df-8a40fa343cd0.png)   
 
 **with zeropadding**   
 + Layer 1      
