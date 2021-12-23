@@ -1,3 +1,4 @@
+FPGA hardware emulation using Layer-specific architecture and tiled pooling
 # Introduction
 
 # Build Setup
