@@ -13,6 +13,8 @@ source vitis_setup.sh
 source /opt/Xilinx/Vitis_HLS/2021.1/settings64.sh
 cd $VITIS_DIR/examples/xilinx/hello_world
 ```
+Put Code(ccn.h, ccn.cpp, host.cpp) in src folder
+
 # Branches
 
 # FPGA Evaluation
