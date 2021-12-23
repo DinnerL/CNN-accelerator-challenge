@@ -39,15 +39,15 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 
 # Results
 ## without zeropadding
-**1. Layer 1**
-2. Layer 2
-3. Layer 3
-4. Layer 4
-5. Layer 5
+**1. Layer 1**   
+**2. Layer 2**   
+**3. Layer 3**   
+**4. Layer 4**   
+**5. Layer 5**   
 
 ## with zeropadding
-1. Layer 1
-2. Layer 2
-3. Layer 3
-4. Layer 4
-5. Layer 5
+**1. Layer 1**   
+**2. Layer 2**   
+**3. Layer 3**   
+**4. Layer 4**   
+**5. Layer 5**   
