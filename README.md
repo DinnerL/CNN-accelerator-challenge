@@ -3,6 +3,9 @@
 # Introduction
 
 # Build Setup
+This build takes place in the hello_world folder.
+So, the name of the folder is hello_world.
+If you want to build in a different folder, create a new folder and edit the contents of the Makefile.
 ```
 git clone https://github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 ```
@@ -15,16 +18,22 @@ cd $VITIS_DIR/examples/xilinx/hello_world
 ```
 Put Code(ccn.h, ccn.cpp, host.cpp) in src folder
 
-# Branches
-
-# FPGA Evaluation
+# FPGA Evaluation (sw_emu)
 ```
 make clean (or cleanall)
 make run TARGET=sw_emu DEVICE=$AWS_PLATFORM all
+```
+
+# FPGA Evaluation (hw_emu)
+```
+make clean (or cleanall)
 make run TARGET=hw_emu DEVICE=$AWS_PLATFORM all
+```
+
+# FPGA Evaluation (hw)
+```
+make clean (or cleanall)
 make run TARGET=hw DEVICE=$AWS_PLATFORM all
 ```
 
 # Varying the Number of Convolvers
-
-# Kown Issues and Bugs
