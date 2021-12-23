@@ -41,12 +41,9 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 **without zeropadding**   
 + Layer 1      
 
-
 + Layer 2
 
-
 + Layer 3
-
 
 + Layer 4
 
@@ -55,23 +52,14 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 
 
 **with zeropadding**   
-> + Layer 1
->  > f   
++ Layer 1      
 
++ Layer 2
 
-> **+ Layer 2**   
->  > d
++ Layer 3
 
++ Layer 4
 
-> **+ Layer 3** 
->  > f   
-
-
-> **+ Layer 4**  
->  > f   
-
-
-> **+ Layer 5**   
->  > f   
++ Layer 5 
 
 
