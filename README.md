@@ -1,6 +1,9 @@
 # FPGA hardware emulation using Layer-specific architecture and tiled pooling
 
 # Introduction
+![image](https://user-images.githubusercontent.com/75317393/147212779-f24964b7-eff8-4abb-9941-a2b030708a42.png)
+
+![image](https://user-images.githubusercontent.com/75317393/147212751-b8c23d66-5977-4312-a23f-921462a439c2.png)
 
 # Build Setup
 This build takes place in the hello_world folder.
@@ -44,11 +47,18 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 + Layer 2
 
 + Layer 3
+![(without zeropadding) layer3 sw_emu](https://user-images.githubusercontent.com/75317393/147213583-3268edc0-37a1-438f-80e2-3fd6e49bf193.png)
+
+![(without zeropadding) layer3 hw_emu](https://user-images.githubusercontent.com/75317393/147213590-9568f8ae-7681-40f3-a469-8d0248ad7043.png)
 
 + Layer 4
+![(without zeropadding) layer4 sw_emu](https://user-images.githubusercontent.com/75317393/147213559-fad5a619-1acb-4c76-a5c8-a93ad7a6003c.png)
+
 
 + Layer 5 
+![(without zeropadding) layer5 sw_emu](https://user-images.githubusercontent.com/75317393/147213530-7fc5adb0-6123-45a8-9caa-851afce5f5cb.png)
 
+![(without zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147213544-d97d0a3d-c213-4850-9c49-ca37d313c931.png)
 
 
 **with zeropadding**   
@@ -61,5 +71,8 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 + Layer 4
 
 + Layer 5 
+![(with zeropadding) layer5 sw_emu](https://user-images.githubusercontent.com/75317393/147213617-5038687b-e01c-4cb2-a93c-580795c703ee.png)
+
+![(with zeropadding) layer5 hw_emu](https://user-images.githubusercontent.com/75317393/147213624-a6de096b-b2c3-475e-8083-afccaad8d407.png)
 
 
