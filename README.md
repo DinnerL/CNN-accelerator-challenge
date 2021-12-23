@@ -3,9 +3,8 @@
 # Introduction
 
 # Build Setup
-This build takes place in the hello_world folder.
-So, the name of the folder is hello_world.
-If you want to build in a different folder, create a new folder and edit the contents of the Makefile.
+This build takes place in the hello_world folder.  So, the name of the folder is hello_world.
+  If you want to build in a different folder, create a new folder and edit the contents of the Makefile.
 ```
 git clone https://github.com/aws/aws-fpga.git $AWS_FPGA_REPO_DIR
 ```
