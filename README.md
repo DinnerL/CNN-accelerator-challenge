@@ -41,6 +41,7 @@ make run TARGET=hw DEVICE=$AWS_PLATFORM all
 > **without zeropadding**   
 > > **+ Layer 1**   
 > >  > dfff   
+
 > > **+ Layer 2**   
 > >  > 
 > > **+ Layer 3**   
