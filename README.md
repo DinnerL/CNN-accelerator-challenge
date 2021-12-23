@@ -19,19 +19,19 @@ cd $VITIS_DIR/examples/xilinx/hello_world
 Put Code(ccn.h, ccn.cpp, host.cpp) in src folder
 
 # FPGA Evaluation 
-## (sw_emu)
+## sw_emu
 ```
 make clean (or cleanall)
 make run TARGET=sw_emu DEVICE=$AWS_PLATFORM all
 ```
 
-## (hw_emu)
+## hw_emu
 ```
 make clean (or cleanall)
 make run TARGET=hw_emu DEVICE=$AWS_PLATFORM all
 ```
 
-## (hw)
+## hw
 ```
 make clean (or cleanall)
 make run TARGET=hw DEVICE=$AWS_PLATFORM all
